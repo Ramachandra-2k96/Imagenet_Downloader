@@ -511,7 +511,7 @@ def main():
     parser.add_argument(
         '--target',
         type=str,
-        default="/home/ramachandra/Pictures/DataSet/Imagenet21K",
+        required=True,
         help='Target directory for downloads (default: current directory)'
     )
     
